@@ -29,27 +29,33 @@ img {
   width: 100px;
 }
 
-.cards {
+.anderon {
+  background-color: #f2f2f2;
   float: left;
   width: 25%;
   border-left: 1px solid #999;
-  border-right: 1px solid #999;
-}
-
-.anderon {
-  background-color: #f2f2f2;
 }
 
 .dino {
   background-color: #e2e2e2;
+  float: left;
+  width: 25%;
+  border-left: 1px solid #999;
 }
 
 .dragon {
   background-color: #ccc;
+  float: left;
+  width: 25%;
+  border-left: 1px solid #999;
 }
 
 .laser {
   background-color: #aaa;
+  float: left;
+  width: 25%;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
 }
 
 a {
