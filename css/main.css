@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: .875rem;
 }
 
 *, *::before, *::after {
@@ -9,8 +11,24 @@ html {
 
 h1 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: .875rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 img {
   width: 100px;
+}
+
+.cards {
+  float: left;
 }
