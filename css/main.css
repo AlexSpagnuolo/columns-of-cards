@@ -3,6 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   font-size: .875rem;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
@@ -27,35 +28,38 @@ h3 {
 
 img {
   width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .anderon {
-  background-color: #f2f2f2;
-  float: left;
-  width: 25%;
-  border-left: 1px solid #999;
-}
-
-.dino {
   background-color: #e2e2e2;
   float: left;
   width: 25%;
-  border-left: 1px solid #999;
+  border-left: 1px solid #333;
 }
 
-.dragon {
+.dino {
   background-color: #ccc;
   float: left;
   width: 25%;
-  border-left: 1px solid #999;
+  border-left: 1px solid #333;
 }
 
-.laser {
+.dragon {
   background-color: #aaa;
   float: left;
   width: 25%;
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
+  border-left: 1px solid #333;
+}
+
+.laser {
+  background-color: #999;
+  float: left;
+  width: 25%;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 a {
